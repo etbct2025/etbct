@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #f97316;
+    transition: all 0.5s;
+}
+
+.nav-link:hover::before{
+    width: 100%;
+}
+
+.collab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: white;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+} */
+
+/* .timeline{
+    animation: moveline 6s linear forwards;
+}
+
+@keyframes moveline {
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+} */
+
+.parent:hover .child{
+    transform: scale(1.2);
+}
