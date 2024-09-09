@@ -3,7 +3,7 @@ import Header from "./Header";
 import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 import smvduLogo from "../../public/logo.png";
-import brsiLogo from "../../public/brsi.png";
+
 const Layout = () => {
   return (
     <div className="overflow-x-hidden">

@@ -24,7 +24,7 @@ const CallPage = () => {
           <div className="w-full md:w-3/6 flex flex-col justify-start items-start px-16 gap-y-5">
           <p className="text-xl  ">
             Authors are requested to submit abstract (250 words) through an
-            email to etbct25@smvdu.ac.in latest by 1st October, 2022. The
+            email to etbct-2025@smvdu.ac.in latest by 10th January, 2025. The
             abstract should be typed in MS word, Times New Roman, 12 point size
             and 1.5 line spacing. The recommended poster size shall be 120 x 100
             cm.

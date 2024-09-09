@@ -16,7 +16,7 @@ const Contact = () => {
                  <span className='text-orange-500 text-xl'><FaPhone/></span> +91 9419320051, +91 9419202016
               </div>
               <div className='flex justify-start items-center gap-x-3 text-white'>
-                <span className='text-orange-500 text-xl'><IoIosMail/></span> etbct2025@smvdu.ac.in
+                <span className='text-orange-500 text-xl'><IoIosMail/></span> etbct-2025@smvdu.ac.in
               </div> 
               <div className='flex justify-start items-center gap-x-3 text-white'>
                 <span className='text-orange-500 text-xl'><FaLocationDot/></span> School of Biotechnology, SMVDU, Katra, India - 182320.
