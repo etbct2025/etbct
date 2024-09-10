@@ -9,6 +9,7 @@ import RegisterPage from './Pages/RegisterPage'
 
 import ContactPage from './Pages/ContactPage'
 import CommitteePage from './Pages/CommitteePage'
+import GalleryPage from './Pages/GalleryPage'
 
 function App() {
  
@@ -23,6 +24,7 @@ function App() {
             <Route path='register' element={<RegisterPage/>}/>
             <Route path='committee' element={<CommitteePage/>}/>
             <Route path='contact' element={<ContactPage/>}/>
+            <Route path='gallery' element={<GalleryPage/>}/>
          </Route>
        </Routes>
 

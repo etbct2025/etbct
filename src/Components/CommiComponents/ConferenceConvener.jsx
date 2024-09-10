@@ -12,8 +12,8 @@ const ConferenceConvener = () => {
              </div>
              <div className='w-full md:w-4/6  flex flex-col gap-y-3 justify-start'>
                 <h1 className='text-2xl text-orange-500 font-bold' >Dr. Indu Bhushan</h1>
-                <h3 className='text-xl font-regular'> Assistant Professor , School Of Biotechnology</h3>
-                <p className='text-lg'> Dr. Indu Bhushan holds a Ph.D. in Biochemistry from Kurukshetra University and the Indian Institute of Integrative Medicine, Jammu. With research interests in fermentation, biotransformation, and enzyme purification/immobilization, Dr. Indu Bhushan has been recognized with several awards, including the UGC-Raman Fellowship for Postdoctoral Research in the USA (2015-16) and the Young Scientist Award at the National Conference on Energy, Environment, and Biotechnology Research (2013). Additionally, they received the Excellent Paper Award at the International Conference on Engineering and Technology (2016) in New York, USA.</p>
+                <h3 className='text-xl font-regular'> Assistant Professor , School of Biotechnology</h3>
+                <p className='text-lg'> Dr. Indu Bhushan, is a Senior Assistant Professor at School of Biotechnology, Shri Mata Vaishno Devi University, and specializes in Human Microbiome, Enzymology, and Nanotechnology. With over 20 years of research and 16 years of teaching experience, Dr. Bhushan has made significant contributions to biosciences through various national and international projects. A Ph.D. in Biochemistry (2008), Dr. Bhushan is recognized for his postdoctoral research in the USA under the prestigious Raman Fellowship (2015-16). He holds multiple patents, and over 50 publications in reputed journals of high impact. His research is supported by numerous awards, including the Faculty Performance Linked Award (2018-19) and Young Scientist Award (2013). He is also an Associate Editor for leading journals, including 3 Biotech and Annals of Biotechnology.</p>
              </div>
           </div>
 </section>

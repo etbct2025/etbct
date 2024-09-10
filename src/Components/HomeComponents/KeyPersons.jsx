@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import vc_profile from "../../../public/VC.jpg"
 import cg_profile from "../../../public/cg.jpg"
 import convener_profile from "../../../public/indubhusan.jpg"
+import registrar from "../../../public/registrar.webp"
 import { motion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -21,7 +22,8 @@ const KeyPersons = () => {
           <div ><img className="rounded-t-xl w-64 h-[300px]sm:w-full sm:h-64" src={cg_profile} alt="" /></div>
           <div className="py-2">
              <h1 className="text-xl text-yellow-500 text-center">Dr. Jitendra Singh</h1>
-             <p className="text-lg text-center">Union Minister</p>
+             <p className="text-lg text-center">Union Minister, PMO, GoI</p>
+             <p className="text-lg text-center">Chief Guest</p>
           </div>
         </motion.div>
       <motion.div whileHover={{scale:1.1}} className="border rounded-xl">
@@ -29,13 +31,23 @@ const KeyPersons = () => {
           <div className="py-2">
              <h1 className="text-xl text-yellow-500 text-center">Prof. (Dr.) Pragati Kumar</h1>
              <p className="text-lg text-center">Vice Chancellor, SMVDU</p>
+             <p className="text-lg text-center">Chief Patron</p>
+          </div>
+        </motion.div>
+        <motion.div whileHover={{scale:1.1}} className="border rounded-xl">
+          <div ><img className="rounded-t-xl w-64 h-[300px]sm:w-96 sm:h-64" src={registrar} alt="" /></div>
+          <div className="py-2">
+             <h1 className="text-xl text-yellow-500 text-center">Sh. Ajay Kumar Sharma (JKAS)</h1>
+             <p className="text-lg text-center">Registrar, SMVDU</p>
+             <p className="text-lg text-center">Patron</p>
           </div>
         </motion.div>
         <motion.div whileHover={{scale:1.1}} className="border rounded-xl">
           <div ><img className="rounded-t-xl w-64 h-[300px]sm:w-96 sm:h-64" src={convener_profile} alt="" /></div>
           <div className="py-2">
              <h1 className="text-xl text-yellow-500 text-center">Dr. Indu Bhushan</h1>
-             <p className="text-lg text-center">Assitant Professor, SoBT</p>
+             <p className="text-lg text-center">Assitant Professor, SoBT, SMVDU</p>
+             <p className="text-lg text-center">Conference Convener</p>
           </div>
         </motion.div>
       

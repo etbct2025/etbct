@@ -8,7 +8,7 @@ const AboutUs = () => {
   return (
    
     
-      <div className="flex flex-col  gap-y-10 py-10 px-8 md:px-16">
+      <div className="flex flex-col  gap-y-[100px] py-10 px-8 md:px-16">
         <AboutCon/>
         <AboutSobt/>
         <AboutSmvdu/>

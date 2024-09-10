@@ -13,7 +13,7 @@ const Contact = () => {
                 <h3 className='text-lg sm:text-2xl  font-regular'>If case of any query, Feel free to contact us.</h3>
               </div>
               <div className='flex justify-start items-center gap-x-3 text-white'>
-                 <span className='text-orange-500 text-xl'><FaPhone/></span> +91 9419320051, +91 9419202016
+                 <span className='text-orange-500 text-xl'><FaPhone/></span> +91 9419320051, +91 6005178581, +91 8494064581
               </div>
               <div className='flex justify-start items-center gap-x-3 text-white'>
                 <span className='text-orange-500 text-xl'><IoIosMail/></span> etbct-2025@smvdu.ac.in
