@@ -9,7 +9,7 @@ const AboutSmvdu = () => {
       </motion.div>
       <motion.div initial={{x:200}} whileInView={{x:0}} className="w-full md:w-3/6 flex flex-col  gap-y-5">
         <h1 className="text-2xl text-orange-500 font-bold ">About SMVDU</h1>
-        <p className="text-xl font-regular ">
+        <p className="text-lg ">
           Shri Mata Vaishno Devi University was established under an Act of J&K
           State Legislature in 1999 as fully residential and technical
           university, the first of its kind in J&K. Recognized by UGC under

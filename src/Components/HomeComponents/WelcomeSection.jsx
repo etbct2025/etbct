@@ -16,7 +16,7 @@ const WelcomeSection = () => {
              </motion.div>
              <motion.div initial={{x:200}} whileInView={{x:0}} className='w-full md:w-3/6 flex flex-col gap-y-2  justify-center'>
                <h1 className='text-3xl'>Organised By <span className='text-orange-500'>School Of Biotechnology , SMVDU</span> </h1>
-               <p className='text-xl font-regular'>
+               <p className='text-lg '>
                SoBT, SMVDU, welcomes all interested delegates on the event of 3rd International Conference on Emerging Trends in Bioscience and Chemical Technology Cum Workshop on Skills in Biosciences 2025. This conference serves as a vital platform for researchers, academics, industry experts, and students from around the globe to converge, share insights, and collaborate on the latest advancements and emerging trends in these dynamic fields. we will delve into a diverse range of topics that reflect the interdisciplinary nature of bioscience and chemical technology, from cutting-edge research in molecular biology and biotechnology to innovative applications in chemical engineering and materials science. The conference also includes a comprehensive workshop designed to enhance practical skills in biosciences, ensuring that participants not only gain theoretical knowledge but also hands-on experience that is critical in today’s scientific landscape.
                </p>
              </motion.div>
