@@ -27,8 +27,8 @@ const Carousel = () => {
           delay: 3000, // Delay between slides in ms
           disableOnInteraction: false, // Continue autoplay after user interaction
          }}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log('slide change')}
+        // onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
           <div className='w-full h-[600px]  bg-cover bg-center bg-no-repeat static' style={{ backgroundImage: `url(${smvduImage1})` }} >

@@ -1,0 +1,28 @@
+{
+    "routes":[
+        {
+            "src":"/",
+            "dest":"/"
+        },
+        {
+            "src":"/about",
+            "dest":"/"
+        },
+        {
+            "src":"/call",
+            "dest":"/"
+        },
+        {
+            "src":"/register",
+            "dest":"/"
+        },
+        {
+            "src":"/committee",
+            "dest":"/"
+        },
+        {
+            "src":"/contact",
+            "dest":"/"
+        }
+    ]
+}

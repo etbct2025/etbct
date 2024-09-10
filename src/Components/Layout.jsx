@@ -21,7 +21,7 @@ const Layout = () => {
         </div>
         <div>
           <p className="text-sm md:text-xl font-regular text-center ">
-            February 14-15,2025  Shri Mata Vaishno Devi University (SMVDU) ,
+             Shri Mata Vaishno Devi University (SMVDU) ,
             Jammu & Kashmir
           </p>
         </div>

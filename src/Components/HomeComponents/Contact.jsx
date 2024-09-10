@@ -23,7 +23,7 @@ const Contact = () => {
               </div>
             </div>
             <div className='w-full md:w-3/6 flex justify-center items-center px-8 '>
-            <iframe className='rounded-xl w-full h-48 sm:w-64 sm:h-64 md:w-96 md:h-96' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.3386952212813!2d74.95151497468636!3d32.94206617553463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e7f68e599872f%3A0xed34304519ea1c71!2sShri%20Mata%20Vaishno%20Devi%20University%20(SMVDU)%2C%20Katra!5e0!3m2!1sen!2sin!4v1719136216344!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe className='rounded-xl w-full h-48 sm:w-64 sm:h-64 md:w-96 md:h-96' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.3386952212813!2d74.95151497468636!3d32.94206617553463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e7f68e599872f%3A0xed34304519ea1c71!2sShri%20Mata%20Vaishno%20Devi%20University%20(SMVDU)%2C%20Katra!5e0!3m2!1sen!2sin!4v1719136216344!5m2!1sen!2sin" ></iframe>
             </div>
         </div>
     </div>
