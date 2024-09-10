@@ -2,11 +2,11 @@ import React from 'react'
 
 const ImportantDates = () => {
   return (
-    <section className='important-dates  md:px-16 py-5'>
-        <div className='text-center text-orange-500  text-2xl sm:text-4xl font-bold py-5'>
+    <section className='important-dates '>
+        <div className=' text-center text-orange-500  text-2xl sm:text-4xl font-bold mb-5'>
             <h1>Important Dates</h1>
         </div>
-        <div className='flex md:flex-row flex-col justify-center items-center md:gap-x-5 gap-y-5 px-5 md:px-16'>
+        <div className='flex md:flex-row flex-col justify-center items-center md:gap-x-5 gap-y-5 '>
              <div className='border h-48  w-full md:w-2/6 bg-orange-200 flex flex-col justify-center gap-y-2 rounded-xl'>
                    <h1 className='text-3xl font-bold text-gray-700 text-center'>15 OCT, 2024</h1>
                     <p className='text-xl md:text-2xl font-regular text-gray-700 text-center' >Abstract submission opens</p>
