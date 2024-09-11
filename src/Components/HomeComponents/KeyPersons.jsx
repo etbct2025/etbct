@@ -18,33 +18,33 @@ const KeyPersons = () => {
       </div>
 
       <div className="px-16 flex justify-center items-center gap-10 flex-wrap">
-      <motion.div whileHover={{scale:1.1}} className="border rounded-xl">
-          <div ><img className="rounded-t-xl w-64 h-[300px]sm:w-full sm:h-64" src={cg_profile} alt="" /></div>
-          <div className="py-2">
+      <motion.div whileHover={{scale:1.1}} className="border rounded-xl w-[250px]">
+          <div className=""><img className="rounded-t-xl w-64 h-[300px]sm:w-full sm:h-64 object-cover" src={cg_profile} alt="" /></div>
+          <div className="py-2 px-5">
              <h1 className="text-xl text-yellow-500 text-center">Dr. Jitendra Singh</h1>
              <p className="text-lg text-center">Union Minister, PMO, GoI</p>
              <p className="text-lg text-center">Chief Guest</p>
           </div>
         </motion.div>
-      <motion.div whileHover={{scale:1.1}} className="border rounded-xl">
-          <div ><img className="rounded-t-xl w-64 h-[300px]sm:w-96 sm:h-64" src={vc_profile} alt="" /></div>
-          <div className="py-2">
+      <motion.div whileHover={{scale:1.1}} className="border rounded-xl w-[250px]">
+          <div ><img className="rounded-t-xl w-64 h-[300px]sm:w-full sm:h-64 object-cover" src={vc_profile} alt="" /></div>
+          <div className="py-2 px-5">
              <h1 className="text-xl text-yellow-500 text-center">Prof. (Dr.) Pragati Kumar</h1>
              <p className="text-lg text-center">Vice Chancellor, SMVDU</p>
              <p className="text-lg text-center">Chief Patron</p>
           </div>
         </motion.div>
-        <motion.div whileHover={{scale:1.1}} className="border rounded-xl">
-          <div ><img className="rounded-t-xl w-64 h-[300px]sm:w-96 sm:h-64" src={registrar} alt="" /></div>
-          <div className="py-2">
+        <motion.div whileHover={{scale:1.1}} className="border rounded-xl w-[250px]">
+          <div ><img className="rounded-t-xl w-64 h-[300px] sm:w-full sm:h-64 object-cover" src={registrar} alt="" /></div>
+          <div className="py-2 px-5">
              <h1 className="text-xl text-yellow-500 text-center">Sh. Ajay Kumar Sharma (JKAS)</h1>
              <p className="text-lg text-center">Registrar, SMVDU</p>
              <p className="text-lg text-center">Patron</p>
           </div>
         </motion.div>
-        <motion.div whileHover={{scale:1.1}} className="border rounded-xl">
-          <div ><img className="rounded-t-xl w-64 h-[300px]sm:w-96 sm:h-64" src={convener_profile} alt="" /></div>
-          <div className="py-2">
+        <motion.div whileHover={{scale:1.1}} className="border rounded-xl w-[250px]">
+          <div ><img className="rounded-t-xl w-64 h-[300px]sm:w-full sm:h-64 object-cover object-top" src={convener_profile} alt="" /></div>
+          <div className="py-2 px-5">
              <h1 className="text-xl text-yellow-500 text-center">Dr. Indu Bhushan</h1>
              <p className="text-lg text-center">Assitant Professor, SoBT, SMVDU</p>
              <p className="text-lg text-center">Conference Convener</p>
