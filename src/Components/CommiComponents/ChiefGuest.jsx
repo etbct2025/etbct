@@ -12,7 +12,7 @@ const ChiefGuest = () => {
              <div className='w-full md:w-4/6  flex flex-col gap-y-3 justify-start'>
                 <h1 className='text-2xl text-orange-500 font-bold' >Dr. Jitendra Singh</h1>
                 <h3 className='text-xl font-regular'>  Honorable Union Minister</h3>
-                <p className='text-lg'> Dr. Jitendra Singh the Minister of State (Independent Charge) for both the Ministry of Science and Technology and the Ministry of Earth Sciences. Additionally, he holds the position of Minister of State in the Prime Minister’s Office, overseeing the Ministry of Personnel, Public Grievances and Pensions. They also play a crucial role as Minister of State in the Department of Atomic Energy and the Department of Space. He is responsible for driving scientific innovation, managing public administration, and overseeing key areas of national importance, including atomic energy and space exploration.</p>
+                <p className='text-lg text-justify'> Dr. Jitendra Singh the Minister of State (Independent Charge) for both the Ministry of Science and Technology and the Ministry of Earth Sciences. Additionally, he holds the position of Minister of State in the Prime Minister’s Office, overseeing the Ministry of Personnel, Public Grievances and Pensions. They also play a crucial role as Minister of State in the Department of Atomic Energy and the Department of Space. He is responsible for driving scientific innovation, managing public administration, and overseeing key areas of national importance, including atomic energy and space exploration.</p>
              </div>
           </div>
 </section>

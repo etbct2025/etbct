@@ -20,8 +20,7 @@ const RegisterPage = () => {
             <a href="https://forms.gle/6pwGomGnApfKxhTU7" className="text-orange-500 underline text-xl" target="_blank">Click here to register</a>
             <p className="text-xl ">
               *All the registered delegates shall be entitled to Conference kit,
-              participation in all sessions, participatory certificate, tea
-              breaks, 1 breakfast, 2 lunches and 1 dinner.
+              participation in all sessions, participatory certificate, 2 high tea, 1 breakfast, 2 lunches and 1 dinner.
             </p>
           </div>
         </div>
@@ -66,10 +65,10 @@ const RegisterPage = () => {
                         <th className="border border-slate-300 p-3 text-center">Participants</th>
                         <th className="border border-slate-300 p-3 text-center ">
                         Early Bird 
-                        (upto 10.01.2025)
+                        
                         </th>
                         <th className="border border-slate-300 p-3 text-center">Late Registration
-                        (after 10.01.2025)
+                        
                             </th>
                             <th className="border border-slate-300 p-3 text-center"> On Spot Registration
                             </th>
@@ -79,14 +78,14 @@ const RegisterPage = () => {
                    
                     <tr>
                     <td className="border border-slate-300 p-3 text-center">1</td>
-                       <td className="border border-slate-300 p-3 text-center">Academic person</td>
+                       <td className="border border-slate-300 p-3 text-center">Academician/Technician Staff</td>
                        <td className="border border-slate-300 p-3 text-center">Rs. 3000/-</td>
                        <td className="border border-slate-300 p-3  text-center">Rs. 3500/-</td>
                        <td className="border border-slate-300 p-3  text-center">Rs. 3800/-</td>
                     </tr>
                     <tr>
                     <td className="border border-slate-300 p-3 text-center">2</td>
-                       <td className="border border-slate-300 p-3 text-center">Industrial person</td>
+                       <td className="border border-slate-300 p-3 text-center">Delegates from R&D /Industry</td>
                        <td className="border border-slate-300 p-3 text-center">Rs. 4000/-</td>
                        <td className="border border-slate-300 p-3 text-center">Rs. 4500/-</td>
                        <td className="border border-slate-300 p-3 text-center">Rs. 4800/-</td>
@@ -100,7 +99,7 @@ const RegisterPage = () => {
                     </tr>
                     <tr>
                     <td className="border border-slate-300 p-3 text-center">4</td>
-                       <td className="border border-slate-300 p-3 text-center">Students 
+                       <td className="border border-slate-300 p-3 text-center">Students(UG & PG) 
                        </td>
                        <td className="border border-slate-300 p-3 text-center">Rs. 1000/-</td>
                        <td className="border border-slate-300 p-3 text-center">Rs. 1500/-</td>

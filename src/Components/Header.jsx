@@ -29,7 +29,10 @@ const Header = () => {
                 <li className='hover:-translate-y-1 transition-all'><Link to={"/about"} className=" nav-link relative mx-4 my-4 md:mx-0 md:my-0 hover:text-orange-500">About</Link></li>
                 <li className='hover:-translate-y-1 transition-all'><Link to={"/call"} className=" nav-link  relative mx-4 my-4  md:mx-0 md:my-0 hover:text-orange-500">Call for abstract</Link></li>
                 <li className='hover:-translate-y-1 transition-all'><Link to={"/register"} className=" nav-link relative mx-4 my-4 md:mx-0 md:my-0 hover:text-orange-500">Register</Link></li>
-                <li className='hover:-translate-y-1 transition-all'><Link to={"/committee"} className=" nav-link  relative mx-4 my-4 md:mx-0 md:my-0 hover:text-orange-500">Committee</Link></li>
+                <li className='hover:-translate-y-1 transition-all'><Link to={"/committee"} className=" nav-link  relative mx-4 my-4 md:mx-0 md:my-0 hover:text-orange-500">Organizing Committee</Link></li>
+                <li className='hover:-translate-y-1 transition-all'><Link to={"/speakers"} className=" nav-link  relative mx-4 my-4 md:mx-0 md:my-0 hover:text-orange-500">Speakers</Link></li>
+               
+                <li className='hover:-translate-y-1 transition-all'><Link to={"/previous-conferences"} className=" nav-link  relative mx-4 my-4 md:my-0 hover:text-orange-500">Previous Conferences</Link></li>
                 <li className='hover:-translate-y-1 transition-all'><Link to={"/contact"} className=" nav-link  relative mx-4 my-4 md:my-0 hover:text-orange-500">Contact</Link></li>
                 {/* <li className='hover:-translate-y-1 transition-all'><Link to={"/gallery"} className=" nav-link  relative mx-4 my-4 md:my-0 hover:text-orange-500">Gallery</Link></li> */}
             </ul>
