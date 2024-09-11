@@ -24,10 +24,10 @@ const Timeline = () => {
         >
           <div className="text-box  relative bg-[#fff] rounded-xl font-[15px]">
             <div className="flex justify-between ">
-              <div className=" border-r-2 flex justify-center items-center w-4/6 xl:w-5/6 text-2xl">
+              <div className=" border-r-2 flex justify-center items-center w-4/6 xl:w-5/6 text-2xl px-2">
                 Abstract Submission Open
               </div>
-              <div className=" w-2/6 xl:w-1/6 flex flex-col justify-center items-center">
+              <div className=" w-2/6 xl:w-1/6 flex flex-col justify-center items-center px-2">
                 <div>12</div>
                 <div className="font-bold text-orange-500">SEP</div>
                 <div>2024</div>
@@ -50,10 +50,10 @@ const Timeline = () => {
         >
           <div className="text-box  relative bg-[#fff] rounded-xl font-[15px]">
             <div className="flex justify-between ">
-              <div className=" border-r-2 flex justify-center items-center w-4/6 xl:w-5/6 text-2xl">
+              <div className=" border-r-2 flex justify-center items-center w-4/6 xl:w-5/6 text-2xl px-2">
                 Abstract Submission Last Date
               </div>
-              <div className="w-2/6 xl:w-1/6 flex flex-col justify-center items-center">
+              <div className="w-2/6 xl:w-1/6 flex flex-col justify-center items-center px-2">
                 <div>1</div>
                 <div className="font-bold text-orange-500">JAN</div>
                 <div>2025</div>
@@ -75,13 +75,13 @@ const Timeline = () => {
         >
           <div className="text-box  relative bg-[#fff] rounded-xl font-[15px]">
             <div className="flex justify-between ">
-              <div className=" border-r-2 flex justify-center items-center w-4/6 xl:w-5/6 text-2xl">
+              <div className=" border-r-2 flex justify-center items-center w-4/6 xl:w-5/6 text-2xl px-2">
                 Acceptance / Rejection Notification
               </div>
-              <div className=" w-1/6 xl:w-1/6 flex flex-col justify-center items-center">
+              <div className=" w-2/6 xl:w-1/6 flex flex-col justify-center items-center px-2">
                 <div>20</div>
                 <div className="font-bold text-orange-500">JAN</div>
-                <div>2024</div>
+                <div>2025</div>
               </div>
             </div>
             <span className=" hidden lg:block left-container-arrow h-0 w-0 absolute top-[13px] z-[1] border-[15px]  border-solid border-transparent border-l-[#fff]   -right-[29px] "></span>
@@ -101,13 +101,13 @@ const Timeline = () => {
         >
           <div className="text-box  relative bg-[#fff] rounded-xl font-[15px]">
             <div className="flex justify-between ">
-              <div className=" border-r-2 flex justify-center items-center w-4/6 xl:w-5/6 text-2xl">
+              <div className=" border-r-2 flex justify-center items-center w-4/6 xl:w-5/6 text-2xl px-2">
                 Conference Dates
               </div>
-              <div className="w-2/6 xl:w-1/6 flex flex-col justify-center items-center">
+              <div className="w-2/6 xl:w-1/6 flex flex-col justify-center items-center px-2">
                 <div>14-15</div>
                 <div className="font-bold text-orange-500">FEB</div>
-                <div>2024</div>
+                <div>2025</div>
               </div>
             </div>
             <span className="right-container-arrow h-0 w-0 absolute top-[13px] z-[1] border-[15px]  border-solid border-transparent border-r-[#fff] -left-[29px]"></span>

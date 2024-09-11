@@ -1,10 +1,10 @@
 import React from "react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import vc_profile from "../../../public/VC.jpg"
-import cg_profile from "../../../public/cg.jpg"
-import convener_profile from "../../../public/indubhusan.jpg"
-import registrar from "../../../public/registrar.webp"
+import vc_profile from "../../../public/keyPersons/VC.jpg"
+import cg_profile from "../../../public/keyPersons/cg.jpg"
+import convener_profile from "../../../public/keyPersons/indubhusan.jpg"
+import registrar from "../../../public/keyPersons/registrar.webp"
 import { motion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/navigation";

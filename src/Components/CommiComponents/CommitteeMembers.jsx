@@ -6,8 +6,8 @@ const CommitteeMembers = () => {
       <h1 className="text-3xl bg-sky-800 pl-5 text-white font-extrabold  mb-3 py-2">
         Committee Members
       </h1>
-      <div>
-        <ul className="text-lg">
+      <div className="pl-2">
+        <ul className="text-lg list-decimal list-inside">
           <li>
             Dr. Ratna Chandra, Assistant Professor, SoBT, Organizing Secretary
           </li>

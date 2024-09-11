@@ -1,5 +1,5 @@
 import React from 'react'
-import cg_profile from "../../../public/registrar.webp"
+import cg_profile from "../../../public/keyPersons/registrar.webp"
 
 const Registrar = () => {
   return (
@@ -8,7 +8,7 @@ const Registrar = () => {
   
           <div className='flex flex-col md:flex-row  gap-y-5 md:gap-x-5  gap-x-5 py-10'>
              <div className='   overflow-hidden flex   justify-center md:justify-start  w-full md:w-2/6  '>
-                <img className=' w-96 h-96 rounded-xl object-cover ' src={cg_profile} alt="cg_profile" />
+                <img className=' w-64 h-64 md:w-96 md:h-96 rounded-xl object-cover ' src={cg_profile} alt="cg_profile" />
              </div>
              <div className='w-full md:w-4/6  flex flex-col gap-y-3 justify-start'>
                 <h1 className='text-2xl text-orange-500 font-bold' >Mr. Ajay Kumar Sharma</h1>
