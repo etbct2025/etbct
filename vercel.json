@@ -21,7 +21,23 @@
             "dest":"/"
         },
         {
+            "src":"/gallery",
+            "dest":"/"
+        },
+        {
             "src":"/contact",
+            "dest":"/"
+        },
+        {
+            "src":"/speakers",
+            "dest":"/"
+        },
+        {
+            "src":"/previous-conferences",
+            "dest":"/"
+        },
+        {
+            "src":"/sponsers",
             "dest":"/"
         }
     ]
