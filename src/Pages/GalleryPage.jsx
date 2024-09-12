@@ -15,11 +15,13 @@ import img13 from "../../public/Gallery/uni4.jpg"
 import img14 from "../../public/Gallery/uni5.jpg"
 import img15 from "../../public/Gallery/uni6.jpg"
 import img16 from "../../public/Gallery/university.jpg"
-
-
+import img17 from "../../public/Gallery/img10.jpeg"
+import img18 from "../../public/Gallery/img11.jpeg"
+import img19 from "../../public/Gallery/img12.jpeg"
+import img20 from "../../public/Gallery/img13.jpeg"
 const GalleryPage = () => {
 
-  const photos = [img01,img02,img03,img04,img05,img06,img07,img08,img09,img10,img11,img12,img13,img14,img15,img16]
+  const photos = [img01,img02,img03,img04,img05,img06,img07,img08,img09,img10,img11,img12,img13,img14,img15,img16,img17,img18,img19,img20]
 
   const [isOpen, setIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);

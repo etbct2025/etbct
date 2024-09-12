@@ -115,7 +115,7 @@ const Header = () => {
                   location.pathname === '/sponsers' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
               >
-                Sponsers
+                Sponsorship
               </Link>
             </li>
             <li className="hover:-translate-y-1 transition-all">
