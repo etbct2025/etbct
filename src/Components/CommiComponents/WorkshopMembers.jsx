@@ -2,6 +2,7 @@ import React from 'react'
 import cg_profile from "../../../public/keyPersons/cg.jpg"
 import rakesh from "../../../public/members/yadav.jpeg"
 import raju from "../../../public/members/raju.jpeg"
+import preeti from "../../../public/members/preeti.png"
 import { motion } from 'framer-motion'
 const WorkshopMembers = () => {
   return (
@@ -27,7 +28,7 @@ const WorkshopMembers = () => {
           </div>
         </motion.div>
         <motion.div whileHover={{scale:1.1}} className="border rounded-xl w-[300px] h-[350px]">
-          <div className=""><img className="rounded-t-xl  h-[250px] w-full sm:h-64 object-cover object-top" src={cg_profile} alt="" /></div>
+          <div className=""><img className="rounded-t-xl  h-[250px] w-full sm:h-64 object-cover object-center" src={preeti} alt="" /></div>
           <div className="pb-5">
              <h1 className="text-xl text-yellow-500 text-center">Dr. Preeti Sharma</h1>
              <p className="text-lg text-center">Assistant Professor, SoBT</p>
@@ -35,48 +36,7 @@ const WorkshopMembers = () => {
           </div>
         </motion.div>
       </div>
-      {/* <div className="pl-2">
-        <ul className="text-lg list-decimal list-inside">
-          <li>
-            Dr. Ratna Chandra, Assistant Professor, SoBT, Organizing Secretary
-          </li>
-          <li>
-            Dr. Shafaq Rasool, Assistant Professor, SoBT,
-            Co-Convener(Conference)
-          </li>
-          <li>
-            Dr. Pravez Singh Slathia, Assistant Professor, SoBT,
-            Co-Convener(Conference)
-          </li>
-          <li>
-            Dr. Vinod singh, Assistant Professor, SoBT, Co-Organizing
-            Secretary(Conference)
-          </li>
-          <li>
-            Dr. Arvind Kumar Yadav, Assistant Professor, SoBT, Co-Organizing
-            Secretary(Conference)
-          </li>
-          <li>
-            Dr. Anil Kumar, Assistant Professor, SoBT, Co-Organizing
-            Secretary(Conference)
-          </li>
-          <li>
-            Dr. Sharada Potukuchi, Assistant Professor, SoBT, Workshop
-            Co-Coordinator
-          </li>
-          <li>
-            Dr. Rakesh Kumar, Assistant Professor, SoBT, Workshop Co-Coordinator
-          </li>
-          <li>
-            Dr. Raju Shankarayan, Assistant Professor, SoBT, Workshop
-            Co-Coordinator
-          </li>
-          <li>
-            Dr. Preeti Sharma, Assistant Professor, SoBT, Workshop
-            Co-Coordinator
-          </li>
-        </ul>
-      </div> */}
+     
     </section>
   )
 }
