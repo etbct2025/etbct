@@ -69,7 +69,7 @@ const KeyPersons = () => {
         <motion.div whileHover={{scale:1.1}} className="border rounded-xl ">
           <div className=""><img className="rounded-t-xl  h-[300px] w-full sm:h-64 object-cover object-top" src={cg_profile} alt="" /></div>
           <div className="py-2 px-5">
-             <h1 className="text-xl text-yellow-500 text-center">Dr. Jitendra Singh</h1>
+             <h1 className="text-xl text-orange-500 text-center">Dr. Jitendra Singh</h1>
              <p className="text-lg text-center">Union Minister, PMO, GoI</p>
              <p className="text-lg text-center">Chief Guest</p>
           </div>
@@ -79,7 +79,7 @@ const KeyPersons = () => {
         <motion.div whileHover={{scale:1.1}} className="border rounded-xl ">
           <div ><img className="rounded-t-xl  h-[300px] w-full sm:h-64 object-cover object-top" src={vc_profile} alt="" /></div>
           <div className="py-2 px-5">
-             <h1 className="text-xl text-yellow-500 text-center">Prof. (Dr.) Pragati Kumar</h1>
+             <h1 className="text-xl text-orange-500 text-center">Prof. (Dr.) Pragati Kumar</h1>
              <p className="text-lg text-center">Vice Chancellor, SMVDU</p>
              <p className="text-lg text-center">Chief Patron</p>
           </div>
@@ -89,7 +89,7 @@ const KeyPersons = () => {
         <motion.div whileHover={{scale:1.1}} className="border rounded-xl ">
           <div ><img className="rounded-t-xl  h-[300px] w-full sm:h-64 object-cover object-top" src={registrar} alt="" /></div>
           <div className="py-2 px-5">
-             <h1 className="text-xl text-yellow-500 text-center">Sh. Ajay Kumar Sharma (JKAS)</h1>
+             <h1 className="text-xl text-orange-500 text-center">Sh. Ajay Kumar Sharma (JKAS)</h1>
              <p className="text-lg text-center">Registrar, SMVDU</p>
              <p className="text-lg text-center">Patron</p>
           </div>
@@ -99,7 +99,7 @@ const KeyPersons = () => {
         <motion.div whileHover={{scale:1.1}} className="border rounded-xl ">
           <div ><img className="rounded-t-xl h-[300px] w-full sm:h-64 object-cover object-top" src={convener_profile} alt="" /></div>
           <div className="py-2 px-5">
-             <h1 className="text-xl text-yellow-500 text-center">Dr. Indu Bhushan</h1>
+             <h1 className="text-xl text-orange-500 text-center">Dr. Indu Bhushan</h1>
              <p className="text-lg text-center">Assitant Professor, SoBT, SMVDU</p>
              <p className="text-lg text-center">Conference Convener</p>
           </div>
@@ -109,7 +109,7 @@ const KeyPersons = () => {
         <motion.div whileHover={{scale:1.1}} className="border rounded-xl ">
           <div className=""><img className="rounded-t-xl  h-[300px] w-full sm:h-64 object-cover object-top" src={ratna} alt="" /></div>
           <div className="pb-5">
-             <h1 className="text-xl text-yellow-500 text-center">Dr. Ratna Chandra</h1>
+             <h1 className="text-xl text-orange-500 text-center">Dr. Ratna Chandra</h1>
              <p className="text-lg text-center">Head, SoBT</p>
              <p className="text-lg text-center">Organizing Secretary</p>
           </div>
@@ -119,7 +119,7 @@ const KeyPersons = () => {
         <motion.div whileHover={{scale:1.1}} className="border rounded-xl ">
           <div className=""><img className="rounded-t-xl  h-[300px] w-full sm:h-64 object-cover object-top" src={sharada} alt="" /></div>
           <div className="pb-5">
-             <h1 className="text-xl text-yellow-500 text-center">Dr. Sharada Potukuchi</h1>
+             <h1 className="text-xl text-orange-500 text-center">Dr. Sharada Potukuchi</h1>
              <p className="text-lg text-center">Associate Professor, SoBT</p>
              <p className="text-lg text-center">Workshop Coordinator</p>
           </div>

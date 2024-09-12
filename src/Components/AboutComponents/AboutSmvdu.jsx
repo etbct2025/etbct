@@ -6,7 +6,7 @@ const AboutSmvdu = () => {
     
       <div className="flex  flex-col md:flex-row-reverse gap-10">
         <motion.div
-          initial={{ x: -200 }}
+          initial={{ x: 200 }}
           whileInView={{ x: 0 }}
           className="w-full md:w-3/6 flex justify-center items-start"
         >
@@ -17,7 +17,7 @@ const AboutSmvdu = () => {
           />
         </motion.div>
         <motion.div
-          initial={{ x: 200 }}
+          initial={{ x: -200 }}
           whileInView={{ x: 0 }}
           className="w-full md:w-3/6 flex flex-col  gap-y-5"
         >

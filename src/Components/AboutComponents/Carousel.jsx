@@ -23,8 +23,10 @@ import bg2 from "../../../public/banner/bg2.jpg";
 
 import bg3 from "../../../public/banner/bg3.jpg";
 
-// className="  bg-cover bg-center bg-no-repeat static "
-// style={{ backgroundImage: `url(${bg1})` }}
+import bg7 from "../../../public/banner/bg7.jpg";
+
+import bg8 from "../../../public/banner/bg8.jpg";
+
 const Carousel = () => {
   return (
     <>
@@ -83,6 +85,20 @@ const Carousel = () => {
            
           >
             <img className="w-full h-[400px] md:h-[600px] object-cover" src={bg6} alt="" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+           
+          >
+            <img className="w-full h-[400px] md:h-[600px] object-cover" src={bg7} alt="" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+           
+          >
+            <img className="w-full h-[400px] md:h-[600px] object-cover" src={bg8} alt="" />
           </div>
         </SwiperSlide>
       </Swiper>

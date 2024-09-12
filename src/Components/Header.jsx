@@ -41,6 +41,7 @@ const Header = () => {
                     ? "text-orange-500"
                     : "hover:text-orange-500"
                 }`}
+                onClick={()=>setIsOpen(false)}
               >
                 Home
               </Link>
@@ -53,6 +54,7 @@ const Header = () => {
                     ? "text-orange-500"
                     : "hover:text-orange-500"
                 }`}
+                onClick={()=>setIsOpen(false)}
               >
                 About
               </Link>
@@ -63,6 +65,7 @@ const Header = () => {
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
                   location.pathname === '/call' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
+                onClick={()=>setIsOpen(false)}
               >
                 Call for abstract
               </Link>
@@ -73,6 +76,7 @@ const Header = () => {
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
                   location.pathname === '/register' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
+                onClick={()=>setIsOpen(false)}
               >
                 Register
               </Link>
@@ -83,6 +87,7 @@ const Header = () => {
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
                   location.pathname === '/committee' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
+                onClick={()=>setIsOpen(false)}
               >
                 Organizing Committee
               </Link>
@@ -93,6 +98,7 @@ const Header = () => {
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
                   location.pathname === '/speakers' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
+                onClick={()=>setIsOpen(false)}
               >
                Invited Speakers
               </Link>
@@ -104,6 +110,7 @@ const Header = () => {
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
                   location.pathname === '/previous-conferences' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
+                onClick={()=>setIsOpen(false)}
               >
                 Previous Conferences
               </Link>
@@ -114,6 +121,7 @@ const Header = () => {
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
                   location.pathname === '/sponsers' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
+                onClick={()=>setIsOpen(false)}
               >
                 Sponsorship
               </Link>
@@ -124,6 +132,7 @@ const Header = () => {
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
                   location.pathname === '/gallery' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
+                onClick={()=>setIsOpen(false)}
               >
                 Gallery
               </Link>
@@ -134,6 +143,7 @@ const Header = () => {
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
                   location.pathname === '/contact' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
+                onClick={()=>setIsOpen(false)}
               >
                 Contact
               </Link>

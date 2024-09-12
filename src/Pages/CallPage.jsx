@@ -13,7 +13,7 @@ const CallPage = () => {
 
         <div className="particpates flex flex-col md:flex-row justify-center   md:gap-x-5 gap-y-5 ">
           <div className=" w-full  md:w-3/6  flex justify-center items-start">
-            <img className="rounded-xl h-96" src={photo1} alt="" />
+            <img className="rounded-xl w-full h-64 sm:h-96 object-cover" src={photo1} alt="" />
           </div>
           <div className="w-full md:w-3/6 flex flex-col justify-start items-start gap-y-5 ">
             <p className="text-xl  ">
