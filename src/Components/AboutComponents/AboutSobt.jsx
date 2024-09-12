@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import biotech from "../../../public/biotechdep.jpg";
+import biotech from "../../../public/Gallery/biotechdep.jpg";
 const AboutSobt = () => {
   return (
     <div className="flex  flex-col md:flex-row gap-10">

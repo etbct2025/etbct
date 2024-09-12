@@ -141,12 +141,7 @@ const PreviousConfe = () => {
           
         </div>
         </SwiperSlide>
-        <SwiperSlide>
-        <div  className="border rounded-xl h-[550px]">
-          <img className="rounded-xl w-full h-full  object-cover " src={smvdu_image} alt="" />
-          
-        </div>
-        </SwiperSlide>
+        
         
       </Swiper>
       </div>

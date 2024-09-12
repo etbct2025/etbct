@@ -7,12 +7,13 @@ import Contact from '../Components/HomeComponents/Contact'
 
 import Carousel from '../Components/AboutComponents/Carousel'
 
+
 const HomePage = () => {
   return (
     <>
      <Carousel/>
      <WelcomeSection/>
-
+     
      <Timeline/>
      <KeyPersons/>
      <Contact/>

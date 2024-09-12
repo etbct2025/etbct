@@ -64,7 +64,7 @@ const Speakers = () => {
 <div className='flex flex-wrap gap-10 px-16 py-10 justify-center items-center'>
     {
         speakers.map((item,i)=>(
-            <motion.div whileHover={{scale:1.1}} className="border rounded-xl w-[300px] ">
+            <motion.div whileHover={{scale:1.1}} className="border rounded-xl w-[300px] " key={i}>
             <div className=""><img className="rounded-t-xl  h-[250px] w-full sm:h-64 object-cover object-top" src={item.photo} alt="" /></div>
             <div className="pb-5 max-h-max">
                <h1 className="text-xl text-orange-500 font-bold text-center">{item.name}</h1>

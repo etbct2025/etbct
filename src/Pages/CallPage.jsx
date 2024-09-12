@@ -17,7 +17,7 @@ const CallPage = () => {
           </div>
           <div className="w-full md:w-3/6 flex flex-col justify-start items-start gap-y-5 ">
             <p className="text-xl  ">
-              Authors are requested to submit abstract (250 words) through registration form latest by Ist January, 2025. The
+              Authors are requested to submit abstract (250 words) through registration form latest by 30 November,2024. The
               abstract should be typed in MS word, Times New Roman, 12 point
               size and 1.5 line spacing. The recommended poster size shall be
               120 x 100 cm.

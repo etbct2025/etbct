@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import smvdu_image from "../../../public/university.jpg";
+import smvdu_image from "../../../public/Gallery/university.jpg";
 const AboutSmvdu = () => {
   return (
     

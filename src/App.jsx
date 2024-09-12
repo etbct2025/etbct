@@ -12,6 +12,7 @@ import CommitteePage from './Pages/CommitteePage'
 import GalleryPage from './Pages/GalleryPage'
 import Speakers from './Pages/Speakers'
 import PreviousConfe from './Pages/PreviousConfe'
+import Sponsers from './Pages/Sponsers'
 
 function App() {
  
@@ -29,6 +30,7 @@ function App() {
             <Route path='gallery' element={<GalleryPage/>}/>
             <Route path='speakers' element={<Speakers/>}/>
             <Route path='previous-conferences' element={<PreviousConfe/>}/>
+            <Route path='sponsers' element={<Sponsers/>}/>
          </Route>
        </Routes>
 

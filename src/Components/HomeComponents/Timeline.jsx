@@ -2,9 +2,16 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import "../../App.css";
+import Countdown from "./Countdown";
+
 const Timeline = () => {
   return (
     <div className="timeline-section bg-sky-800 flex flex-col gap-y-10 my-10 py-16 text-2xl">
+       <div className="countdown px-16">
+      <div className=" flex justify-center items-center">
+      <Countdown targetDate="2025-02-14T23:59:59" />
+    </div>
+      </div>
       <div className="text-4xl font-bold text-white  ">
         <motion.h1 className="text-center" nitial={{ x: -1000 }} whileInView={{ x: 0 }}>
           Important Dates{" "}
