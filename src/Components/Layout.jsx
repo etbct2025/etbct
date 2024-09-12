@@ -10,20 +10,22 @@ const Layout = () => {
        <div className="conference-details py-5 border ">
         <div className=" flex justify-center items-center ">
           <div>
-            <img className=" md:w-32 md:h-32 " src={smvduLogo} alt="smvdu_logo" />
+            <img className=" md:w-48 md:h-32 " src={smvduLogo} alt="smvdu_logo" />
           </div>
-          <div>
+          <div className="flex flex-col gap-5">
             <h1 className="text-lg md:text-2xl font-bold text-sky-800 text-center sm:w-[400] md:w-[600px] lg:w-[900px]">
-            3rd International Conference on Emerging Trends in Biosciences and Chemical Technology Cum Workshop on Skills in Biosciences
+            3<sup>rd</sup> International Conference on Emerging Trends in Biosciences and Chemical Technology Cum Workshop on Skills in Biosciences
             </h1>
-          </div>
-          
-        </div>
-        <div>
-          <p className="text-sm md:text-xl font-regular text-center ">
+            <p className="text-center text-sm md:text-xl font-bold">14<sup>th</sup>-15<sup>th</sup>, February 2025</p>
+            <p className="text-sm md:text-xl font-bold text-center ">
              Shri Mata Vaishno Devi University (SMVDU),
             Jammu & Kashmir
           </p>
+          </div>
+          
+        
+          
+        
         </div>
       </div>
       <Header />

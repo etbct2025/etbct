@@ -10,7 +10,7 @@ const Contact = () => {
             <div className=' w-full md:w-3/6 px-8 md:px-16 flex flex-col gap-y-3 text-white'>
               <div>
                 <h1 className='text-xl sm:text-3xl  font-bold'>Get in touch with us</h1>
-                <h3 className='text-lg sm:text-2xl  font-regular'>If case of any query, Feel free to contact us.</h3>
+                <h3 className='text-lg sm:text-2xl  font-regular'>In case of any query, Feel free to contact us.</h3>
               </div>
               <div className='flex justify-start items-center gap-x-3 text-white'>
                  <span className='text-orange-500 text-xl'><FaPhone/></span> +91 9419320051, +91 6005178581, +91 8494064581

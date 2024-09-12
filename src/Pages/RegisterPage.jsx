@@ -17,7 +17,7 @@ const RegisterPage = () => {
 
             <p className="text-xl ">
               Participants are requested to register for the conference by
-              filling the registration form available on website.
+              filling the registration form.
             </p>
             <a
               href="https://forms.gle/6pwGomGnApfKxhTU7"
@@ -120,7 +120,7 @@ const RegisterPage = () => {
                       1
                     </td>
                     <td className="border border-slate-300 p-3 text-center">
-                      Academician/Technician Staff
+                      Academician/Technical Staff
                     </td>
                     <td className="border border-slate-300 p-3 text-center">
                       Rs. 3000/-

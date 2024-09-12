@@ -84,7 +84,7 @@ const Timeline = () => {
           <div className="text-box  relative bg-[#fff] rounded-xl font-[15px]">
             <div className="flex justify-between ">
               <div className=" border-r-2 flex justify-center items-center w-4/6 xl:w-5/6 text-2xl px-2">
-                Acceptance / Rejection Notification
+                Abstract acceptence
               </div>
               <div className=" w-2/6 xl:w-1/6 flex flex-col justify-center items-center px-2">
                 <div>10</div>

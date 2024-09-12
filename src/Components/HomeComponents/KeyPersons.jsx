@@ -115,16 +115,7 @@ const KeyPersons = () => {
           </div>
         </motion.div>
         </SwiperSlide>
-        <SwiperSlide>
-        <motion.div whileHover={{scale:1.1}} className="border rounded-xl ">
-          <div className=""><img className="rounded-t-xl  h-[300px] w-full sm:h-64 object-cover object-top" src={sharada} alt="" /></div>
-          <div className="pb-5">
-             <h1 className="text-xl text-orange-500 text-center">Dr. Sharada Potukuchi</h1>
-             <p className="text-lg text-center">Associate Professor, SoBT</p>
-             <p className="text-lg text-center">Workshop Coordinator</p>
-          </div>
-        </motion.div>
-        </SwiperSlide>
+
         
       </Swiper>
       {/* <div className="px-16 flex justify-center items-center gap-10 flex-wrap">
